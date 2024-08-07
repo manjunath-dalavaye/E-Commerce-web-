@@ -1,0 +1,70 @@
+.footer {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-top: 1px solid #ddd;
+  }
+ 
+  .footer h2 {
+    margin: 0;
+    padding-bottom: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: -929px;
+  }
+ 
+  .footer .deals-list {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding: 10px 0;
+  }
+ 
+  .footer .deal-item {
+    flex: 0 0 auto;
+    width: 200px;
+    margin-right: 20px;
+    text-align: center;
+  }
+ 
+  .footer .deal-item:first-child {
+    margin-left: 50px;
+  }
+ 
+  .footer .deal-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+  }
+ 
+  .footer .deal-item h3 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+ 
+  .footer .deal-item p {
+    font-size: 14px;
+    color: #777;
+  }
+  .header {
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center items vertically */
+    margin: 0; /* Remove default margins */
+  }
+ 
+  .title {
+    margin-right: 10px; /* Adjust spacing between title and divider */
+  }
+ 
+  .divider {
+    margin: 0 10px; /* Adjust spacing around the divider */
+    color: gray; /* Set the color of the divider */
+  }
+ 
+  .countdown {
+    color: red; /* Set the color of the countdown text */
+    font-weight: normal;
+  }
